@@ -1,0 +1,19 @@
+{
+  "name": "native-promise-sample",
+  "version": "0.0.1",
+  "description": "Sample code of using promise in native code",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp configure build",
+    "format:js": "prettier --write index.js 'example/*.js'",
+    "format:cpp": "clang-format -i src/*.cpp",
+    "clean": "rm -rf build"
+  },
+  "keywords": [],
+  "author": "Shohei YOSHIDA <syohex@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-gyp": "^6.1.0",
+    "prettier": "^2.0.2"
+  }
+}
