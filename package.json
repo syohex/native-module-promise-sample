@@ -13,7 +13,7 @@
   "author": "Shohei YOSHIDA <syohex@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "node-gyp": "^9.4.0",
+    "node-gyp": "^12.1.0",
     "prettier": "^2.0.2"
   }
 }
